@@ -1,0 +1,109 @@
+{
+    "@context": "https://raw.githubusercontent.com/jpmccu/CBK-MM/main/context.json",
+    "@id": "https://cds.ahrq.gov/cdsconnect/artifact/statin-use-primary-prevention-cvd-adults-patient-facing-cds-intervention",
+    "@type": "Resource",
+    "title": "Statin Use for the Primary Prevention of CVD in Adults: Patient-Facing CDS Intervention",
+    "description": "This artifact provides patient-centered, evidence-based preventive health information to patients between 40-75 years old who have one or more CVD risk factors (i.e., dyslipidemia, diabetes, hypertension, or smoking) and a calculated 10-year CVD event risk score of 10% or greater. The intervention text prompts them to discuss the possibility of initiating statin therapy with their primary care clinician to prevent CVD.",
+    "subject": [
+      "snomed:315053001 | Administration of prophylactic statin (procedure) |",
+      "snomed:Substance with 3-hydroxy-3-methylglutaryl-coenzyme A reductase inhibitor mechanism of action (substance)",
+      "snomed:372912004 | Substance with 3-hydroxy-3-methylglutaryl-coenzyme A reductase inhibitor mechanism of action (substance) |",
+      "snomed:49601007 | Disorder of cardiovascular system (disorder) |",
+      "mesh:Adult",
+      "mesh:Advisory Committees",
+      "mesh:Aged",
+      "mesh:Cardiovascular Diseases* / etiology",
+      "mesh:Cardiovascular Diseases* / mortality",
+      "mesh:Cardiovascular Diseases* / prevention & control",
+      "mesh:Cardiovascular System",
+      "mesh:CVD",
+      "mesh:Dyslipidemias* / complications",
+      "mesh:Dyslipidemias* / drug therapy",
+      "mesh:Humans",
+      "mesh:Hydroxymethylglutaryl-CoA Reductase Inhibitors* / adverse effects",
+      "mesh:Hydroxymethylglutaryl-CoA Reductase Inhibitors* / therapeutic use",
+      "mesh:Hypertension / complications",
+      "mesh:Hypertension / diagnosis",
+      "mesh:Mass Screening",
+      "mesh:Middle Aged",
+      "mesh:Myocardial Infarction / mortality",
+      "mesh:Myocardial Infarction / prevention & control",
+      "mesh:Patient-Centered",
+      "mesh:Preventive Health Services",
+      "mesh:Primary Prevention*",
+      "mesh:Risk Assessment",
+      "mesh:Risk Score",
+      "mesh:Statin",
+      "mesh:Stroke / mortality",
+      "mesh:Stroke / prevention & control",
+      "mesh:United States"
+    ],
+    "creator": [
+      "orcid:0000-0001-9889-8610",
+      "orcid:0000-0002-4467-8484",
+      "orcid:0009-0002-3967-6350",
+      "orcid:...",
+      "orcid:...",
+      "wd:https://www.wikidata.org/wiki/Q7891198",
+      "wd:https://www.wikidata.org/wiki/Q627039"
+    ],
+    "publisher": [
+      "orcid:...",
+      "wd:https://www.wikidata.org/wiki/Q4692008",
+      "wd:https://www.wikidata.org/wiki/Q627039"
+    ],
+    "landingPage": "https://cds.ahrq.gov/cdsconnect/artifact/statin-use-primary-prevention-cvd-adults-patient-facing-cds-intervention",
+    "language": "i18n:en",
+    "issued": "2019/06/01",
+    "modified": "YYYY/MM/DD",
+    "@comment": "any of hasPart, concretizes, or subset, one Resource to Many.",
+    "concretizes": [
+      {
+        "@id": "https://doi.org/10.1001/jama.2022.13044",
+        "@type": "Artifact",
+        "title": "Statin Use for the Primary Prevention of Cardiovascular Disease in Adults: US Preventive Services Task Force Recommendation Statement",
+        "description": "Recommendation: The USPSTF recommends that clinicians prescribe a statin for the primary prevention of CVD for adults aged 40 to 75 years who have 1 or more CVD risk factors (ie, dyslipidemia, diabetes, hypertension, or smoking) and an estimated 10-year CVD risk of 10% or greater. (B recommendation) The USPSTF recommends that clinicians selectively offer a statin for the primary prevention of CVD for adults aged 40 to 75 years who have 1 or more of these CVD risk factors and an estimated 10-year CVD risk of 7.5% to less than 10%. The likelihood of benefit is smaller in this group than in persons with a 10-year risk of 10% or greater. (C recommendation) The USPSTF concludes that the current evidence is insufficient to assess the balance of benefits and harms of initiating a statin for the primary prevention of CVD events and mortality in adults 76 years or older. (I statement).",
+        "language": "i18n:en",
+        "issued": "2022/08/23",
+        "modified": "YYYY/MM/DD",
+        "mediaType": "media:html",
+        "@comment": "these should be mutually exclusive.",
+        "downloadURL": [
+          "https://watermark.silverchair.com/jama_mangione_2022_us_220018_1660869424.13945.pdf?token=000",
+          "https://cds.ahrq.gov/sites/default/files/cds/artifact/logic/2023-08/USPSTFStatinUseForPrimaryPreventionOfCVDInAdultsPatientFacing_Change_Log_0.txt",
+          "https://cds.ahrq.gov/sites/default/files/cds/artifact/logic/2023-08/USPSTFStatinUseForPrimaryPreventionOfCVDInAdultsPatientFacingFHIRv102_v2.1.0_CQL_0.zip",
+          "https://cds.ahrq.gov/sites/default/files/cds/artifact/logic/2023-08/USPSTFStatinUseForPrimaryPreventionOfCVDInAdultsPatientFacingFHIRv102_v2.1.0_CR_0.zip",
+          "https://cds.ahrq.gov/sites/default/files/cds/artifact/logic/2023-08/USPSTFStatinUseForPrimaryPreventionOfCVDInAdultsPatientFacingFHIRv401_v2.1.0_CQL_0.zip",
+          "https://cds.ahrq.gov/sites/default/files/cds/artifact/logic/2023-08/USPSTFStatinUseForPrimaryPreventionOfCVDInAdultsPatientFacingFHIRv401_v2.1.0_CR_0.zip"
+        ],
+        "accessURL": "https://jamanetwork.com/journals/jama/fullarticle/2795521",
+        "isVersionOf|subset|concretizes|hasPart|": [
+          {
+            "@id": "http://[sub-artifact uri",
+            "@type": "Artifact",
+            "@comment": "Add sub-artifacts as needed."
+          }
+        ]
+      },
+      {
+        "@id": "https://www.uspreventiveservicestaskforce.org/uspstf/document/RecommendationStatementFinal/statin-use-in-adults-preventive-medication",
+        "@type": "Artifact",
+        "title": "Final Recommendation Statement-Statin Use for the Primary Prevention of Cardiovascular Disease in Adults: Preventive Medication",
+        "description": "This recommendation replaces the 2016 USPSTF recommendation on statin use for the primary prevention of CVD and is generally consistent with that recommendation.30 In 2016, the USPSTF recommended that adults without a history of CVD (ie, symptomatic coronary artery disease or ischemic stroke) use a low- to moderate-dose statin for the prevention of CVD events and mortality when all of the following criteria are met: (1) they are aged 40 to 75 years; (2) they have 1 or more CVD risk factors (ie, dyslipidemia, diabetes, hypertension, or smoking); and (3) they have a calculated 10-year risk of a cardiovascular event of 10% or greater. The USPSTF also recommended that clinicians may choose to offer a low- to moderate-dose statin to adults without a history of CVD who meet criteria 1 and 2 above and have a calculated 10-year risk of a cardiovascular event of 7.5% to less than 10%. The USPSTF concluded that the evidence was insufficient to assess the balance of benefits and harms of initiating statin use for the primary prevention of CVD events and mortality in adults 76 years or older.",
+        "language": "i18n:en",
+        "issued": "2022/08/23",
+        "modified": "YYYY/MM/DD",
+        "mediaType": "media:html",
+        "@comment": "these should be mutually exclusive.",
+        "downloadURL": "https://www.uspreventiveservicestaskforce.org/home/getfilebytoken/vTJ_Zj3TAkhx45wWUDtNyt",
+        "accessURL": "https://www.uspreventiveservicestaskforce.org/uspstf/document/RecommendationStatementFinal/statin-use-in-adults-preventive-medication",
+        "isVersionOf|subset|concretizes|hasPart|": [
+          {
+            "@id": "http://[sub-artifact uri",
+            "@type": "Artifact",
+            "@comment": "Add sub-artifacts as needed."
+          }
+        ]
+      }
+    ]
+  }

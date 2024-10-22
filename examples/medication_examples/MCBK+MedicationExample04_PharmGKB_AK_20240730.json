@@ -1,0 +1,194 @@
+{
+  "@context": "https://raw.githubusercontent.com/jpmccu/CBK-MM/main/context.json",
+  "@id": "https://www.pharmgkb.org/",
+  "@type": "Resource",
+  "title": "Pharmacogenomics Knowledgebase (PharmGKB)",
+  "description": "The Pharmacogenomics Knowledgebase (PharmGKB) is a resource that collects, curates, and disseminates information about the impact of human genetic variation on drug responses. It provides clinically relevant information, including dosing guidelines, annotated drug labels, and potentially actionable gene-drug associations and genotype-phenotype relationships. Curators assign levels of evidence to variant-drug associations using well-defined criteria based on careful literature review. Thus, PharmGKB is a useful source of high-quality information supporting personalized medicine-implementation projects.",
+  "subject": [
+    "snomed:428931000124102 | Pharmacogenetic consultation (procedure) |",
+    "mesh:Pharmacogenetics "
+  ],
+  "creator": [
+    "orcid:0000-0001-5527-6475",
+    "orcid:0000-0003-2414-9312",
+    "orcid:0000-0001-5720-1864",
+    "wd:https://www.wikidata.org/wiki/Q41506"
+  ],
+  "publisher": [
+    "orcid:...",
+    "wd:https://www.wikidata.org/wiki/Q41506"
+  ],
+  "landingPage": "https://www.pharmgkb.org/",
+  "language": "i18n:en",
+  "issued": "2000/MM/DD",
+  "modified": "YYYY/MM/DD",
+  "@comment": "any of hasPart, concretizes, or subset, one Resource to Many.",
+  "subset": [
+    {
+      "@id": "https://www.pharmgkb.org/guidelineAnnotations",
+      "@type": "Artifact",
+      "title": "Clinical Guideline Annotations",
+      "description": "...",
+      "language": "i18n:en",
+      "issued": "YYYY/MM/DD",
+      "modified": "YYYY/MM/DD",
+      "mediaType": "media:type/subtype",
+      "@comment": "these should be mutually exclusive.",
+      "downloadURL": "https://api.pharmgkb.org/v1/download/file/data/guidelineAnnotations.json.zip",
+      "accessURL": "https://www.pharmgkb.org/guidelineAnnotations",
+      "isVersionOf|subset|concretizes|hasPart|": [
+        {
+          "@id": "http://[sub-artifact uri",
+          "@type": "Artifact",
+          "@comment": "Add sub-artifacts as needed."
+        }
+      ]
+    },
+    {
+      "@id": "https://www.pharmgkb.org/labelAnnotations",
+      "@type": "Artifact",
+      "title": "Drug Label Annotations",
+      "description": "...",
+      "language": "i18n:en",
+      "issued": "YYYY/MM/DD",
+      "modified": "YYYY/MM/DD",
+      "mediaType": "media:type/subtype",
+      "@comment": "these should be mutually exclusive.",
+      "downloadURL": "https://api.pharmgkb.org/v1/download/file/data/drugLabels.zip",
+      "accessURL": "https://www.pharmgkb.org/labelAnnotations",
+      "isVersionOf|subset|concretizes|hasPart|": [
+        {
+          "@id": "http://[sub-artifact uri",
+          "@type": "Artifact",
+          "@comment": "Add sub-artifacts as needed."
+        }
+      ]
+    },
+    {
+      "@id": "https://www.pharmgkb.org/fdaLabelAnnotations",
+      "@type": "Artifact",
+      "title": "FDA Drug Label Annotations",
+      "description": "...",
+      "language": "i18n:en",
+      "issued": "YYYY/MM/DD",
+      "modified": "YYYY/MM/DD",
+      "mediaType": "media:type/subtype",
+      "@comment": "these should be mutually exclusive.",
+      "downloadURL": "http://[direct download url]",
+      "accessURL": "https://www.pharmgkb.org/fdaLabelAnnotations",
+      "isVersionOf|subset|concretizes|hasPart|": [
+        {
+          "@id": "http://[sub-artifact uri",
+          "@type": "Artifact",
+          "@comment": "Add sub-artifacts as needed."
+        }
+      ]
+    },
+    {
+      "@id": "https://www.pharmgkb.org/clinicalAnnotations",
+      "@type": "Artifact",
+      "title": "Clinical Annotations",
+      "description": "...",
+      "language": "i18n:en",
+      "issued": "YYYY/MM/DD",
+      "modified": "YYYY/MM/DD",
+      "mediaType": "media:type/subtype",
+      "@comment": "these should be mutually exclusive.",
+      "downloadURL": "https://api.pharmgkb.org/v1/download/file/data/clinicalVariants.zip",
+      "accessURL": "https://www.pharmgkb.org/clinicalAnnotations",
+      "isVersionOf|subset|concretizes|hasPart|": [
+        {
+          "@id": "http://[sub-artifact uri",
+          "@type": "Artifact",
+          "@comment": "Add sub-artifacts as needed."
+        }
+      ]
+    },
+    {
+      "@id": "https://www.pharmgkb.org/pathways",
+      "@type": "Artifact",
+      "title": "Pathways",
+      "description": "...",
+      "language": "i18n:en",
+      "issued": "YYYY/MM/DD",
+      "modified": "YYYY/MM/DD",
+      "mediaType": "media:type/subtype",
+      "@comment": "these should be mutually exclusive.",
+      "downloadURL": [
+        "https://api.pharmgkb.org/v1/download/file/data/pathways-biopax.zip",
+        "https://api.pharmgkb.org/v1/download/file/data/pathways-tsv.zip"
+      ],
+      "accessURL": "https://www.pharmgkb.org/pathways",
+      "isVersionOf|subset|concretizes|hasPart|": [
+        {
+          "@id": "http://[sub-artifact uri",
+          "@type": "Artifact",
+          "@comment": "Add sub-artifacts as needed."
+        }
+      ]
+    },
+    {
+      "@id": "https://www.pharmgkb.org/vips",
+      "@type": "Artifact",
+      "title": "VIPs (Very Important Pharmacogenes)",
+      "description": "...",
+      "language": "i18n:en",
+      "issued": "YYYY/MM/DD",
+      "modified": "YYYY/MM/DD",
+      "mediaType": "media:type/subtype",
+      "@comment": "these should be mutually exclusive.",
+      "downloadURL": "http://[direct download url]",
+      "accessURL": "https://www.pharmgkb.org/vips",
+      "isVersionOf|subset|concretizes|hasPart|": [
+        {
+          "@id": "http://[sub-artifact uri",
+          "@type": "Artifact",
+          "@comment": "Add sub-artifacts as needed."
+        }
+      ]
+    },
+    {
+      "@id": "https://www.pharmgkb.org/variantAnnotations",
+      "@type": "Artifact",
+      "title": "Variant Annotations",
+      "description": "...",
+      "language": "i18n:en",
+      "issued": "YYYY/MM/DD",
+      "modified": "YYYY/MM/DD",
+      "mediaType": "media:type/subtype",
+      "@comment": "these should be mutually exclusive.",
+      "downloadURL": "https://api.pharmgkb.org/v1/download/file/data/variants.zip",
+      "accessURL": "https://www.pharmgkb.org/variantAnnotations",
+      "isVersionOf|subset|concretizes|hasPart|": [
+        {
+          "@id": "http://[sub-artifact uri",
+          "@type": "Artifact",
+          "@comment": "Add sub-artifacts as needed."
+        }
+      ]
+    },
+    {
+      "@id": "https://www.pharmgkb.org/annotatedDrugs",
+      "@type": "Artifact",
+      "title": "Annotated Drugs",
+      "description": "...",
+      "language": "i18n:en",
+      "issued": "YYYY/MM/DD",
+      "modified": "YYYY/MM/DD",
+      "mediaType": "media:type/subtype",
+      "@comment": "these should be mutually exclusive.",
+      "downloadURL": [
+        "https://api.pharmgkb.org/v1/download/file/data/drugs.zip",
+        "https://api.pharmgkb.org/v1/download/file/data/chemicals.zip"
+      ],
+      "accessURL": "https://www.pharmgkb.org/annotatedDrugs",
+      "isVersionOf|subset|concretizes|hasPart|": [
+        {
+          "@id": "http://[sub-artifact uri",
+          "@type": "Artifact",
+          "@comment": "Add sub-artifacts as needed."
+        }
+      ]
+    }
+  ]
+}

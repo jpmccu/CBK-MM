@@ -1,0 +1,55 @@
+{
+  "@context": "https://raw.githubusercontent.com/jpmccu/CBK-MM/main/context.json",
+  "@id": "https://raw.githubusercontent.com/arpcard/aro/master/aro.owl",
+  "@type": "Resource",
+  "title": "Antibiotic Resistance Ontology: Antibiotic resistance genes and mutations",
+  "description": "The Antibiotic Resistance Ontology describes antibiotic resistance genes and mutations, their products, mechanisms, and associated phenotypes, as well as antibiotics and their molecular targets. It is integrated with the Comprehensive Antibiotic Resistance Database, a curated resource containing high quality reference data on the molecular basis of antimicrobial resistance.",
+  "subject": [
+    "snomed:713728002 | Drug resistance to antibacterial agent (disorder) |",
+    "snomed:419241000 | Substance with antibacterial mechanism of action (substance) |",
+    "mesh:Bacteria / drug effects",
+    "mesh:Bacteria / genetics",
+    "mesh:Bacterial Proteins / chemistry",
+    "mesh:Bacterial Proteins / genetics",
+    "mesh:Bacterial Proteins / metabolism",
+    "mesh:Databases, Genetic*",
+    "mesh:Drug Resistance, Bacterial*",
+    "mesh:Genes, Bacterial*",
+    "mesh:Software*"
+  ],
+  "creator": [
+    "orcid:0000-0002-1142-3063",
+    "wd:..."
+  ],
+  "publisher": [
+    "orcid:...",
+    "wd:Q4117183"
+  ],
+  "landingPage": "https://obofoundry.org/ontology/aro.html",
+  "language": "i18n:en",
+  "issued": "2024/02/13",
+  "modified": "2024/04/22",
+  "@comment": "any of hasPart, concretizes, or subset, one Resource to Many.",
+  "concretizes": [
+    {
+      "@id": "https://doi.org/10.1093%2Fnar%2Fgkz935",
+      "@type": "Artifact",
+      "title": "CARD 2020: antibiotic resistome surveillance with the comprehensive antibiotic resistance database",
+      "description": "The Comprehensive Antibiotic Resistance Database (CARD; https://card.mcmaster.ca) is a curated resource providing reference DNA and protein sequences, detection models and bioinformatics tools on the molecular basis of bacterial antimicrobial resistance (AMR). CARD focuses on providing high-quality reference data and molecular sequences within a controlled vocabulary, the Antibiotic Resistance Ontology (ARO), designed by the CARD biocuration team to integrate with software development efforts for resistome analysis and prediction, such as CARD’s Resistance Gene Identifier (RGI) software. Since 2017, CARD has expanded through extensive curation of reference sequences, revision of the ontological structure, curation of over 500 new AMR detection models, development of a new classification paradigm and expansion of analytical tools. Most notably, a new Resistomes & Variants module provides analysis and statistical summary of in silico predicted resistance variants from 82 pathogens and over 100 000 genomes. By adding these resistance variants to CARD, we are able to summarize predicted resistance using the information included in CARD, identify trends in AMR mobility and determine previously undescribed and novel resistance variants. Here, we describe updates and recent expansions to CARD and its biocuration process, including new resources for community biocuration of AMR molecular reference data.",
+      "language": "i18n:en",
+      "issued": "2019/10/29",
+      "modified": "YYYY/MM/DD",
+      "mediaType": "media:type/subtype",
+      "@comment": "these should be mutually exclusive.",
+      "downloadURL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7145624/pdf/gkz935.pdf",
+      "accessURL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7145624/",
+      "isVersionOf|subset|concretizes|hasPart|": [
+        {
+          "@id": "http://[sub-artifact uri",
+          "@type": "Artifact",
+          "@comment": "Add sub-artifacts as needed."
+        }
+      ]
+    }
+  ]
+}
